@@ -33,7 +33,7 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 15px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+      font-size: 18px; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin-bottom: 90%;
       letter-spacing: 3px;
   }
@@ -54,8 +54,8 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   .titulo {
-      font-size: 1.1 rem; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 80px;
+      font-size: 1.5 rem; /* Reduce el tamaño del texto para dispositivos más pequeños */
+      margin-bottom: 120px;
       letter-spacing: 4px;
   }
 
