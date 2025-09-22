@@ -22,10 +22,10 @@ body {
 
 #lyrics {
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #6b6a6a;
   position: absolute;
-  margin-bottom: 85%;
+  margin-bottom: 20%;
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
@@ -33,15 +33,15 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 18px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 90%;
+      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+      margin-bottom: 530px;
       letter-spacing: 3px;
   }
 
 }
 .titulo {
   margin-bottom: 180px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Arial Narrow", Arial, sans-serif;
   color: #6b6a6a;
   position: absolute;
   font-weight: bold;
@@ -49,16 +49,6 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
-  z-index: 1000
-}
-@media only screen and (max-width: 600px) {
-  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-  .titulo {
-      font-size: 1.5 rem; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 120px;
-      letter-spacing: 4px;
-  }
-
 }
 @keyframes fadeIn {
   from {
