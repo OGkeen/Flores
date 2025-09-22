@@ -25,8 +25,10 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #6b6a6a;
   position: absolute;
-  margin-bottom: 85%;
-  z-index: 1;
+  bottom: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
   font-weight: bold;
   letter-spacing: 4px;
 }
@@ -34,7 +36,7 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 600px;
+      bottom: 15%;
       letter-spacing: 3px;
   }
 
@@ -49,7 +51,7 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
-  z-index:1;
+  z-index:1000;
 }
 @keyframes fadeIn {
   from {
